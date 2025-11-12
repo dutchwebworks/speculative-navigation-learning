@@ -10,7 +10,10 @@
     <link rel="icon" href="/favicon.ico">
 
     <link rel="stylesheet" href="/css/style.css">
+
     <script src="/js/supports-speculative-navigation.js" defer></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/baseline-status@1/baseline-status.min.js" type="module"></script>
 </head>
 
 <body>
@@ -25,7 +28,7 @@
         </header>
 
         <main>
-            <h1>Speculative Navigation</h1>
+            <h1>Speculative Navigation</h1>            
 
             <div class="experimental">
                 <img src="/img/experiment.svg" alt="Experimental" width="32" height="32">
@@ -45,7 +48,9 @@
 
             <h2>Web browser support?</h2>
 
-            <h3>Is the Speculation Rules API supported in your web browser?</h3>
+            <p>Is the Speculation Rules API supported in your web browser?</p>
+
+            <baseline-status featureId="speculation-rules" style="margin-block-end: 20px;"></baseline-status>
 
             <div class="status">
                 <p><span id="supported"></span></p>

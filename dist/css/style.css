@@ -178,7 +178,7 @@ code {
     margin-block: 40px;
     padding: 20px;
     border-radius: 8px;
-    background-color: #eee;
+    background-color: var(--clr-light);
     font-size: 22px;
 }
 
@@ -204,7 +204,7 @@ code {
     font-size: 26px;
     padding: 10px 20px;
     border-radius: 8px;
-    background-color: #ccc;
+    background-color: #eee;
 }
 
 /* Supported
