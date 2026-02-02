@@ -41,32 +41,34 @@
             <p class="quote">"Prefetching or even prerendering certain URL's for a (almost) instant page loading
                 experience."</p>
 
-            <h2>Imporant!</h2>
+            <div class="important-info">
+                <h2>Imporant!</h2>
 
-            <p>Make sure you (temporarily) <strong>turn off any content blocking tools</strong> like uBlock Origin or
-                AdBlocker like web browser extensions. Othwerise the prefetching will not work.</p>
+                <p>Make sure you (temporarily) <strong>turn off any content blocking tools</strong> like uBlock Origin or
+                    AdBlocker like web browser extensions. <strong>Otherwise the prefetching will not work</strong>.</p>
+            </div>
 
             <h2>Web browser support?</h2>
 
             <p>Is the Speculation Rules API supported in your web browser?</p>
 
             <baseline-status featureId="speculation-rules" style="margin-block-end: 20px;"></baseline-status>
-
+            
             <div class="status">
                 <p><span id="supported"></span></p>
-            </div>
+            </div>            
 
-            <p>As of this writing (November, 2024) the speculative navigation only works in the following web
-                browser(s):</p>
+            <p>As of this writing (January, 2026) the speculative navigation only works in the following web browser(s):</p>
 
             <h3>Works in (desktop &amp; mobile):</h3>
 
             <ul>
                 <li>Chrome</li>
                 <li>Edge</li>
-                <li>Opera</li>
+                <li>Opera (&amp; Opera Air)</li>
                 <li>Chrome Android</li>
                 <li>Opera Android</li>
+                <li>Vivaldi</li>
                 <li>Samsung Internet (browser)</li>
                 <li>WebView Android</li>
             </ul>
@@ -76,20 +78,29 @@
             <ul>
                 <li>Firefox</li>
                 <li>Firefox Android</li>
-                <li>Safari (macOS, iPadOS, iOS &amp; iOS WebView)</li>
+                <li>Safari (MacOS, iPadOS, iOS &amp; iOS WebView)</li>
                 <li>Brave</li>
             </ul>
+
+            <div style="margin-block-start: 20px;">
+                Also check curren status at <a href="https://caniuse.com/?search=speculationrules" target="_blank">Can I Use: speculationrules</a>
+            </div>
 
             <h2>Inspirational video</h2>
 
             <p>My simplified demo is inspired by this YouTube video.</p>
 
-            <iframe width="560" height="315" style="aspect-ratio: 16 / 9;"
+            <iframe 
+                loading="lazy"
+                title="Debugging speculative navigations for faster page loads"
+                width="100%"
+                style="object-fit: cover; max-width: 100%; aspect-ratio: 16/9;"
                 src="https://www.youtube-nocookie.com/embed/BIpz9Hdjm_A?si=BXo8m_1jNwKKSGXw"
-                title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy">
-            </iframe>
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen   
+            >
+            </iframe>         
 
             <h3>3rd party demo</h3>
 
@@ -108,7 +119,7 @@
         </main>
 
         <footer>
-            <p>By Dutchwebworks, November 2024</p>
+            <p>By Dutchwebworks, January 2026</p>
             <p><a href="https://github.com/dutchwebworks/speculative-navigation" target="_blank">View on Github</a></p>
         </footer>
     </div>

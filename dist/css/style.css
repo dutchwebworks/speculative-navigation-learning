@@ -3,7 +3,7 @@
 :root {
     --clr-primary: deepskyblue;
     --clr-secondary: deeppink;
-    --clr-light: #aaa;
+    --clr-light: #eee;
     --clr-gray: #595959;
     --clr-dark: #263238;
     --ff-base: Helvetica, sans-serif;
@@ -204,7 +204,21 @@ code {
     font-size: 26px;
     padding: 10px 20px;
     border-radius: 8px;
-    background-color: #eee;
+    background-color: var(--clr-light);
+}
+
+/* Important Info
+------------------------------------------------- */
+
+.important-info {
+    padding: 20px 40px;
+    background-color: #F8FF85;
+    border-radius: 16px;
+
+    h2 {
+        margin-block: 0;
+        color: var(--clr-primary);
+    }    
 }
 
 /* Supported
