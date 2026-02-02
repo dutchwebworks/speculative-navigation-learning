@@ -152,7 +152,7 @@ nav ul {
 ------------------------------------------------- */
 
 footer {
-    border-block-start: 1px solid var(--clr-light);
+    border-block-start: 1px solid var(--clr-gray);
     padding-block-start: 5px;
     padding-block-end: 20px;
     font-size: 14px;
@@ -163,7 +163,7 @@ footer {
 
 footer p {
     margin: 0;
-    color: var(--clr-light);
+    color: var(--clr-gray);
 }
 
 footer a {
